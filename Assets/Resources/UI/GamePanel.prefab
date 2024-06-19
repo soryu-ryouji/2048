@@ -2087,10 +2087,10 @@ RectTransform:
   - {fileID: 7657547749338043915}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4746283852100112019
 MonoBehaviour:
@@ -2108,6 +2108,17 @@ MonoBehaviour:
   scoreText: {fileID: 2674478634013326603}
   bestScoreText: {fileID: 1728880167642118714}
   board: {fileID: 3443829983983872725}
+  maximText: {fileID: 6290343559857146982}
+  maxims:
+  - Never, never, never give up.
+  - Genius is one percent inspiration and ninety-nine percent perspiration.
+  - If you can't fly then run, if you can't run then walk, if you can't walk then
+    crawl, but whatever you do you have to keep moving forward.
+  - Success seems to be connected with action. Successful people keep moving. They
+    make mistakes, but they don't quit.
+  - He that can have patience can have what he will.
+  - Action is the foundational key to all success.
+  - Great works are performed not by strength but by perseverance.
 --- !u!1 &6502567268197748888
 GameObject:
   m_ObjectHideFlags: 0
